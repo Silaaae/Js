@@ -14,7 +14,7 @@ function upDate(previewPic) {
 }
 
 function undo() {
-    // Reset the background image of the div with the ID "image"
+    // Reset the background image of the div with the ID "image" 
     const imageDiv = document.getElementById("image");
     imageDiv.style.backgroundImage = "url('')";
 
